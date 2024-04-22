@@ -31,6 +31,11 @@
 // console.log(returnHowManyArguments("one", "two", 3, "4th"));
 
 // task 5 using the spread operator
-import concatArrays from "./5-spread-operator.js";
+// import concatArrays from "./5-spread-operator.js";
 
-console.log(concatArrays(["a", "b"], ["c", "d"], "Hello"));
+// console.log(concatArrays(["a", "b"], ["c", "d"], "Hello"));
+
+// task 6 using interpolation
+import getSanFranciscoDescription from "./6-string-interpolation.js";
+
+console.log(getSanFranciscoDescription());
