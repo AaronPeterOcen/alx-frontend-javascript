@@ -18,8 +18,14 @@
 // console.log(res);
 
 // task 3
-import getSumOfHoods from "./3-default-parameter.js";
+// import getSumOfHoods from "./3-default-parameter.js";
 
-console.log(getSumOfHoods(34));
-console.log(getSumOfHoods(34, 3));
-console.log(getSumOfHoods(34, 3, 4));
+// console.log(getSumOfHoods(34));
+// console.log(getSumOfHoods(34, 3));
+// console.log(getSumOfHoods(34, 3, 4));
+
+// task 4 spread(...a) operator
+import returnHowManyArguments from "./4-rest-parameter.js";
+
+console.log(returnHowManyArguments("one"));
+console.log(returnHowManyArguments("one", "two", 3, "4th"));
