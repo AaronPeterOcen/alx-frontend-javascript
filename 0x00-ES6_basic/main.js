@@ -41,6 +41,11 @@
 // console.log(getSanFranciscoDescription());
 
 // task 7
-import getBudgetObject from "./7-getBudgetObject.js";
+// import getBudgetObject from "./7-getBudgetObject.js";
 
-console.log(getBudgetObject(400, 700, 900));
+// console.log(getBudgetObject(400, 700, 900));
+
+// task 8
+import getBudgetForCurrentYear from "./8-getBudgetCurrentYear.js";
+
+console.log(getBudgetForCurrentYear(2100, 5200, 1090));
