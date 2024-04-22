@@ -51,8 +51,23 @@
 // console.log(getBudgetForCurrentYear(2100, 5200, 1090));
 
 // task 10
-import appendToEachArrayValue from "./10-loops.js";
+// import appendToEachArrayValue from "./10-loops.js";
 
-console.log(
-  appendToEachArrayValue(["appended", "fixed", "displayed"], "correctly-")
-);
+// console.log(
+//   appendToEachArrayValue(["appended", "fixed", "displayed"], "correctly-")
+// );
+
+// task 11
+
+// task 12
+// import createEmployeesObject from "./11-createEmployeesObject.js";
+// import createReportObject from "./12-createReportObject.js";
+
+// const employees = {
+//   ...createEmployeesObject("engineering", ["Bob", "Jane"]),
+//   ...createEmployeesObject("marketing", ["Sylvie"]),
+// };
+
+// const report = createReportObject(employees);
+// console.log(report.allEmployees);
+// console.log(report.getNumberOfDepartments(report.allEmployees));
