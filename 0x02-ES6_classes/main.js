@@ -49,7 +49,7 @@
 //   console.log(err);
 // }
 
-import Currency from "./3-currency";
+import Currency from './3-currency';
 
-const dollar = new Currency("$", "Dollars");
+const dollar = new Currency('$', 'Dollars');
 console.log(dollar.displayFullCurrency());
