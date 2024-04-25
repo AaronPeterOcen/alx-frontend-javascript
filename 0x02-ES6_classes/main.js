@@ -21,7 +21,11 @@
 // const ec2 = ec1.cloneCar();
 // console.log(ec2);
 
-import ClassRoom from "./0-classroom";
+// import ClassRoom from "./0-classroom";
 
-const room = new ClassRoom(10);
-console.log(room._maxStudentsSize);
+// const room = new ClassRoom(10);
+// console.log(room._maxStudentsSize);
+
+import initializeRooms from "./1-make_classrooms";
+
+console.log(initializeRooms());
