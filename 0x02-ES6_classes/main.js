@@ -13,10 +13,15 @@
 
 // console.log(tc1 === tc2);
 
-import EVCar from './100-evcar';
+// import EVCar from './100-evcar';
 
-const ec1 = new EVCar('Tesla', 'Turbo', 'Red', '250');
-console.log(ec1);
+// const ec1 = new EVCar('Tesla', 'Turbo', 'Red', '250');
+// console.log(ec1);
 
-const ec2 = ec1.cloneCar();
-console.log(ec2);
+// const ec2 = ec1.cloneCar();
+// console.log(ec2);
+
+import ClassRoom from "./0-classroom";
+
+const room = new ClassRoom(10);
+console.log(room._maxStudentsSize);
